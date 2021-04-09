@@ -656,6 +656,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Unity.2D.PixelPerfect.Samples.Editor.csproj">
+      <Project>{6cad201e-a2c8-ff90-3ee2-1f5ccbd82fc0}</Project>
+      <Name>Unity.2D.PixelPerfect.Samples.Editor</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="Unity.2D.PixelPerfect.Samples.csproj">
+      <Project>{ef1903c0-643c-bdc9-66cd-fb01342ca3ae}</Project>
+      <Name>Unity.2D.PixelPerfect.Samples</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
